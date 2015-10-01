@@ -1,0 +1,4 @@
+[submodule "wordpress"]
+	path = wordpress
+	url = git@github.com:jetruby/cohenhandler.git
+	branch = 4.2-branch
