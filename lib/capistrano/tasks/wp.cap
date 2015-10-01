@@ -3,7 +3,7 @@ namespace :wp do
   task :set_permissions do
     on roles(:app) do
       execute :chmod, "666 #{shared_path}/.htaccess"
-      execute :chmod, "-R 777 #{shared_path}/content/uploads"
+      execute :chmod, "-R 777 #{shared_path}/wp-content/uploads"
     end
   end
 
